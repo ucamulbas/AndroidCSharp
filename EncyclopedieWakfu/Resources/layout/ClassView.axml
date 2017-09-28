@@ -16,19 +16,18 @@
             android:gravity="center"
             android:textAllCaps="true" />
         <TextView
-            android:text="Description"
+            android:text="@string/description"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/classdescriptiontitle"
             android:gravity="center" />
         <TextView
-            android:text="Text"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/classdescription" />
         <TextView
-            android:text="Sorts"
+            android:text="@string/spell"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -41,7 +40,7 @@
             android:minWidth="25px"
             android:minHeight="25px" />
         <TextView
-            android:text="Passifs"
+            android:text="@string/passif"
             android:textAppearance="?android:attr/textAppearanceMedium"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -137,6 +137,117 @@ namespace EncyclopedieWakfu
 			// aapt resource value: 0x7f040000
 			public const int app_name = 2130968576;
 			
+			// aapt resource value: 0x7f04000d
+			public const int cra = 2130968589;
+			
+			// aapt resource value: 0x7f04001e
+			public const int cradescription = 2130968606;
+			
+			// aapt resource value: 0x7f040001
+			public const int description = 2130968577;
+			
+			// aapt resource value: 0x7f04000b
+			public const int ecaflip = 2130968587;
+			
+			// aapt resource value: 0x7f04001c
+			public const int ecaflipdescription = 2130968604;
+			
+			// aapt resource value: 0x7f040013
+			public const int eliotrop = 2130968595;
+			
+			// aapt resource value: 0x7f040024
+			public const int eliotropedescription = 2130968612;
+			
+			// aapt resource value: 0x7f04000c
+			public const int eniripsa = 2130968588;
+			
+			// aapt resource value: 0x7f04001d
+			public const int eniripsadescription = 2130968605;
+			
+			// aapt resource value: 0x7f040009
+			public const int enutrof = 2130968585;
+			
+			// aapt resource value: 0x7f04001a
+			public const int enutrofdescription = 2130968602;
+			
+			// aapt resource value: 0x7f040007
+			public const int feca = 2130968583;
+			
+			// aapt resource value: 0x7f040018
+			public const int fecadescription = 2130968600;
+			
+			// aapt resource value: 0x7f040014
+			public const int huppermage = 2130968596;
+			
+			// aapt resource value: 0x7f040025
+			public const int huppermagedescription = 2130968613;
+			
+			// aapt resource value: 0x7f040004
+			public const int iop = 2130968580;
+			
+			// aapt resource value: 0x7f040015
+			public const int iopdescription = 2130968597;
+			
+			// aapt resource value: 0x7f040008
+			public const int osamodas = 2130968584;
+			
+			// aapt resource value: 0x7f040019
+			public const int osamodasdescription = 2130968601;
+			
+			// aapt resource value: 0x7f040006
+			public const int pandawa = 2130968582;
+			
+			// aapt resource value: 0x7f040017
+			public const int pandawadescription = 2130968599;
+			
+			// aapt resource value: 0x7f040003
+			public const int passif = 2130968579;
+			
+			// aapt resource value: 0x7f040010
+			public const int roublard = 2130968592;
+			
+			// aapt resource value: 0x7f040021
+			public const int roublarddescription = 2130968609;
+			
+			// aapt resource value: 0x7f04000f
+			public const int sacrieur = 2130968591;
+			
+			// aapt resource value: 0x7f040020
+			public const int sacrieurdescription = 2130968608;
+			
+			// aapt resource value: 0x7f04000e
+			public const int sadida = 2130968590;
+			
+			// aapt resource value: 0x7f04001f
+			public const int sadidadescription = 2130968607;
+			
+			// aapt resource value: 0x7f040002
+			public const int spell = 2130968578;
+			
+			// aapt resource value: 0x7f04000a
+			public const int sram = 2130968586;
+			
+			// aapt resource value: 0x7f04001b
+			public const int sramdescription = 2130968603;
+			
+			// aapt resource value: 0x7f040012
+			public const int steamer = 2130968594;
+			
+			// aapt resource value: 0x7f040023
+			public const int steamerdescription = 2130968611;
+			
+			// aapt resource value: 0x7f040005
+			public const int xelor = 2130968581;
+			
+			// aapt resource value: 0x7f040016
+			public const int xelordescription = 2130968598;
+			
+			// aapt resource value: 0x7f040011
+			public const int zobal = 2130968593;
+			
+			// aapt resource value: 0x7f040022
+			public const int zobaldescription = 2130968610;
+			
 			static String()
 			{
 				global::Android.Runtime.ResourceIdManager.UpdateIdValues();

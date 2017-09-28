@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <resources>
-  <string name="app_name">EncyclopediaWakfu</string>
+  <string name="app_name">EncyclopedieWakfu</string>
   <string name="description">Description</string>
-  <string name="spell">Spell</string>
-  <string name="passif">"Class Spell"</string>
+  <string name="spell">Sort</string>
+  <string name="passif">Passif</string>
   <string name="iop">iop</string>
   <string name="xelor">xelor</string>
   <string name="pandawa">pandawa</string>
@@ -15,13 +15,13 @@
   <string name="eniripsa">eniripsa</string>
   <string name="cra">cra</string>
   <string name="sadida">sadida</string>
-  <string name="sacrieur">sacrier</string>
-  <string name="roublard">rogue</string>
-  <string name="zobal">masqueraiders</string>
-  <string name="steamer">foggernaut</string>
+  <string name="sacrieur">sacrieur</string>
+  <string name="roublard">roublard</string>
+  <string name="zobal">zobal</string>
+  <string name="steamer">steamer</string>
   <string name="eliotrop">eliotrop</string>
   <string name="huppermage">huppermage</string>
-  <string name="iopdescription">"Iops are courageous knights who let their weapons do the talking. If they knew what proverbs were, their favorite would definitely be \"Act before you think.\" Unfortunately, the size of their brains is inversely proportional to the size of their swords... Still, Iops are great protectors who are always appreciated in groups. Plus, they have such beautiful hair!"</string>
+  <string name="iopdescription">"Les Iops sont des chevaliers courageux sachant faire parler les armes. S'ils savaient ce qu'est un dicton, le leur serait : \" Agir, puis réfléchir \". Mais la grosseur de leur cerveau a beau être inversement proportionnelle à celle de leur épée, les Iops n'en restent pas moins des protecteurs appréciés de leurs alliés. Parce qu'ils le valent bien..."</string>
   <string name="xelordescription">"Les Xélors se jouent du temps. Manipuler le tic-tac, telle est leur tactique ! Passionnés de mécanismes horlogers en tout genre, ils refusent de laisser filer la moindre seconde ou le moindre ennemi ! Si vous les voyez manipuler leurs aiguilles : fuyez ! Car c'est que votre heure a sonné..."</string>
   <string name="pandawadescription">"Maîtres dans l'art du poing, les Pandawas sont également très habiles dans la discipline du lever de coude. Et à défaut de chopine, ce sont leurs ennemis qu'ils envoient valser dans les airs ! Souvenez-vous-en la prochaine fois que l'un d'eux vous proposera de vous \" payer un coup \"..."</string>
   <string name="fecadescription">"Les Fécas sont des protecteurs-nés. N'espérez pas vous emparer de ce qui leur a été confié, il faudra d'abord leur passer sur le corps et encore repasser ! Jusqu'à leur dernier souffle, ils veillent sans jamais lâcher. Ne vous en prenez pas non plus au premier Bouftou venu ! Même s'ils ne sont plus bergers, ils feront toujours barrage entre une créature sans défense et un agresseur malintentionné."</string>

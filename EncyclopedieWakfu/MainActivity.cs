@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using Android.Content;
 using EncyclopedieWakfu.Models;
 using Newtonsoft.Json;
+using System.Resources;
 
 namespace EncyclopedieWakfu
 {
@@ -68,9 +69,18 @@ namespace EncyclopedieWakfu
         }
 
         private void InitClassContent(MyButton button)
-        {       
-            button.contents.AddRange(new List<Button>() {InitButton("Iop"), InitButton("sacrieur"), InitButton("enutrof"), InitButton("osamodas"), InitButton("sram"), InitButton("sadida"), InitButton("pandawa"), InitButton("roublard")
-            , InitButton("steamer"), InitButton("zobal"), InitButton("eniripsa"), InitButton("eliotrope"), InitButton("huppermage"), InitButton("ecaflip"), InitButton("cra"), InitButton("xelor"), InitButton("feca")});
+        {
+
+
+            button.contents.AddRange(new List<Button>() {   InitButton(GetString(Resource.String.feca)), InitButton(GetString(Resource.String.osamodas)),
+                                                            InitButton(GetString(Resource.String.enutrof)), InitButton(GetString(Resource.String.sram)),
+                                                            InitButton(GetString(Resource.String.xelor)), InitButton(GetString(Resource.String.ecaflip)),
+                                                            InitButton(GetString(Resource.String.eniripsa)), InitButton(GetString(Resource.String.iop)),
+                                                            InitButton(GetString(Resource.String.cra)), InitButton(GetString(Resource.String.sadida)),
+                                                            InitButton(GetString(Resource.String.sacrieur)), InitButton(GetString(Resource.String.pandawa)),
+                                                            InitButton(GetString(Resource.String.roublard)), InitButton(GetString(Resource.String.zobal)),
+                                                            InitButton(GetString(Resource.String.steamer)), InitButton(GetString(Resource.String.eliotrop)),
+                                                            InitButton(GetString(Resource.String.huppermage))});
         }
 
         private Button InitButton(string name)

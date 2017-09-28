@@ -6,8 +6,6 @@ using System.Text;
 using Android.App;
 using Android.Content;
 using Android.OS;
-using Android.Runtime;
-using Android.Views;
 using Android.Widget;
 using EncyclopedieWakfu.Models;
 using Newtonsoft.Json;
@@ -28,10 +26,15 @@ namespace EncyclopedieWakfu
             // Create your application here
             SetContentView(Resource.Layout.ClassView);
             var className = FindViewById<TextView>(Resource.Id.classname);
-            var description = FindViewById<TextView>(Resource.Id.classdescription);
             className.Text = classe.name;
-            description.Text = classe.description;
+            Init();
+        }
 
+        private void Init()
+        {
+            var description = FindViewById<TextView>(Resource.Id.classdescription);
+            classe.description = GetString(Resources.GetIdentifier(classe.name.ToLower() + "description", "string",PackageName));
+            description.Text = classe.description;
         }
     }
 }
