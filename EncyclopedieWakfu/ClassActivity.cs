@@ -22,7 +22,6 @@ namespace EncyclopedieWakfu
             base.OnCreate(savedInstanceState);
             classe = JsonConvert.DeserializeObject<Classe>(Intent.GetStringExtra("Classe"));
 
-
             // Create your application here
             SetContentView(Resource.Layout.ClassView);
             var className = FindViewById<TextView>(Resource.Id.classname);
@@ -33,7 +32,7 @@ namespace EncyclopedieWakfu
         private void Init()
         {
             var description = FindViewById<TextView>(Resource.Id.classdescription);
-            classe.description = GetString(Resources.GetIdentifier(classe.name.ToLower() + "description", "string",PackageName));
+            classe.description = GetString(Resources.GetIdentifier(string.Concat(classe.name.ToLower(), "description"), "string", PackageName));
             description.Text = classe.description;
         }
     }
